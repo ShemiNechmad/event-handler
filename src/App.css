@@ -1,3 +1,47 @@
-.App {
-  text-align: center;
+.title{
+  width:84%;
+  margin:auto;
+}
+.titlogo{
+  font-size: 38px;
+  font-weight: bold;
+}
+.hamburgerbar{
+  display:none;
+}
+.hamnav {
+  display: none;
+}
+.hamnavTrue {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 900px){
+  .title{
+    width:94%;
+    margin:auto;
+  }
+  .titlogo{
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .hamburgerbar {
+    display: block;
+    float:right;
+    font-size: 26px;
+    padding:4px 10px;
+    cursor: pointer;
+  }
+.hamnav {
+  display: none;
+}
+.hamnavTrue {
+  display: block;
+  position: fixed;
+  background-color:white;
+}
+
+
 }
