@@ -2,9 +2,13 @@
   "name": "event-handler",
   "version": "0.1.0",
   "private": true,
+  
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.9.0",
+    "react-animated-slider": "^1.1.4",
     "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1"
   },
   "scripts": {
@@ -13,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:8080",
   "eslintConfig": {
     "extends": "react-app"
   },

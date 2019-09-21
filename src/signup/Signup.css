@@ -1,0 +1,72 @@
+.SUtitle{
+    width:84%;
+    margin:auto;
+  }
+  .SUtitlogo{
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+  }
+  .SUhamburgerbar{
+    display:none;
+  }
+  .SUhamnav {
+    display: none;
+  }
+  .SUhamnavTrue {
+    display: none;
+  }
+  .SUtopRightTitle {
+    float:right; height:54px; display:table;
+  }
+  
+  .SUclearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .SUnone {
+    display:none;
+  }
+  .SUbody {
+      width:100%;
+      max-width: 900px;
+      margin:auto;
+      background-color: rgb(237, 235, 255);
+  }
+
+  
+  
+  
+  @media screen and (max-width: 900px){
+    .SUtitle{
+      width:94%;
+      margin:auto;
+    }
+    .SUtitlogo{
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .SUhamburgerbar {
+      display: block;
+      float:right;
+      font-size: 26px;
+      padding:4px 10px;
+      cursor: pointer;
+    }
+  .SUhamnav {
+    display: none;
+  }
+  .SUhamnavTrue {
+    display: block;
+    position: absolute;
+    width:100%;
+    background-color:white;
+  }
+  
+  
+  
+  }
